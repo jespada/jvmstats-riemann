@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+JAR="/usr/lib/jvmstats-riemann/jvmstats-riemann.jar"
+
+exec java -jar "$JAR" "$@" 
+
